@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root {
+    --bg: #141414;
+    --span-bg: #1a1a1a;
+    --border-bg: #232323;
+    --text: #6d6d6d;
+}
+
+p{
+    color: var(--text); 
+}
+
+.About {
+    background-color: var(--bg);
+    border: 1px solid red;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem;
+}
+
+/* HERO --START */
+
+.Hero-comp {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+}
+
+.Hero-comp h1 {
+    font-size: 32px;
+}
+
+.Hero-comp p{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.col {
+    width: 45%;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 52%;
+    border: 1px solid red;
+}
+
+.col-1 .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats div {
+    background: var(--span-bg);
+    border-radius: 10px;
+    border: 1px solid var(--border-bg);
+    padding: 1.5rem;
+}
+
+.stats div h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.stats div p {
+    font-size: 11px;
+}
+
+/* HERO --ENDS */

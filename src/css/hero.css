@@ -1,0 +1,104 @@
+:root {
+    --text: #262626;
+    --bgLight: #f8f2f0;
+    --border: #e2e5f1;
+    --btn: #6366f1;
+    --yellowTag: #f9f395;
+    --greenTag: #7de7c1;
+    --purpleTag: #cab1ff;
+}
+
+/* Hero */
+.Hero {
+    display: flex;
+    padding: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap-reverse;
+    min-height: 90vh;
+    background-color: #f8f2f0;
+}
+
+.Hero .text-section,
+.Hero .img-section {
+    /* border: 1px solid red; */
+}
+
+.Hero .text-section{
+    width: 55%;
+}
+
+.Hero .img-section {
+    width: 40%;
+}
+
+.Hero .img-section img {
+    width: 100%;
+    display: block;
+}
+
+.Hero h1 {
+    font-size: 54px;
+    line-height: 59px;
+    font-weight: 500;
+    color: #0b0f19;
+    margin-bottom: 1rem;
+}
+
+.Hero .text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.Hero .btn-sec {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.Hero .btn-sec div button,
+.col-1 button {
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-weight: 500;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.Hero .btn-sec .btngo1,
+.col-1 .btngo-1 {
+    background-color: #6366f1;
+    color: white;
+    width: 130px;
+}
+
+.Hero .btn-sec div p {
+    font-size: 9px;
+    text-align: center;
+} 
+
+
+@media (max-width:650px) {
+    .Hero {
+        flex-direction: column;
+        /* border: 1px solid red; */
+        padding: 3.5rem 2rem;
+        justify-content: space-between;
+    } 
+
+    .Hero .text-section{
+        width: 100%;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+    
+    .Hero .img-section {
+        width: 100%;
+    }
+}

@@ -1,0 +1,98 @@
+/* About */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 5rem 2.5rem;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    line-height: 59px;
+    font-weight: 500;
+    color: #0b0f19;
+}
+
+.about-section .text {
+    font-size: 18px;
+    line-height: 36px;
+    color: #262626;
+}
+
+.niche-sec {
+    display: grid;
+    border: 1px solid red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding: 1.1rem;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.niche {
+    padding: 2rem;
+    color: white;
+    text-align: left;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.niche h4 {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+}
+
+.niche p {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.niche button {
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+
+.niche div {
+    border: 1px solid red;
+    height: auto;
+}
+
+.niche:first-child {
+    background-color: #267dff;
+}
+
+.niche:nth-child(2) {
+    background-color: #00d085;
+}
+
+.niche:nth-child(3) {
+    background-color: #9867ff;
+}
+
+.niche img {
+    width: 100%
+}
+
+.niche .icon {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 2rem;
+}
+

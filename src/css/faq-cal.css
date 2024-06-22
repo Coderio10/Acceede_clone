@@ -1,0 +1,153 @@
+/* Calculator and FAQ */
+.cal-faq {
+    background-color: #5c495e;
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 85vh;
+    padding: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 45%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.container h2 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.container .cal-sec div   {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    padding: 1rem;
+    gap: 0.5rem;
+    width: auto;
+}
+
+.container .cal-sec div label {
+    font-weight: 500;
+    text-align: left;
+} 
+
+.container .cal-sec div input,
+.container .cal-sec button {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+} 
+
+.container .cal-sec div input {
+    text-indent: 15px;
+} 
+
+.container .cal-sec button {
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    background-color: var(--btn);
+}
+
+.faq-container {
+    min-width: 320px;
+    max-width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+    padding: 1.5rem;
+}
+
+.question-component {
+    border: 1px solid yellow;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: left;
+    box-shadow: 1px 1px 5px -1px #262626;
+    border-radius: 5px;
+}
+
+.question {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.question h4 {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.question-component span {
+    font-size: 10px;
+}
+
+.question span {
+    width: 25px;
+    height: 25px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    background-color:#6e5971;
+}
+
+.question span .arrow {
+    font-size: 12px;
+    rotate: 180deg;
+    fill: #0b0f19;
+}
+
+.question .active > .arrow {
+    transform: rotateX(180deg);
+    transition: all 0.5s ease;
+    fill: white;
+}
+
+.active {
+    box-shadow: 1px 1px 10px 0px white;
+}
+
+.answer {
+    display: block;
+    padding: 1rem 1rem 1rem 0.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 870px) {
+    .cal-faq {
+        flex-flow: column;
+        min-height: 85vh;
+        padding: 4rem 2.5rem;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container {
+        min-width: 330px;
+        max-width: 70%;
+    }
+
+    .faq-container {
+        min-width: 330px;
+        max-width: 630px;
+    }
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+    list-style-type: none;
+}
+
+:root {
+    --text: #262626;
+    --bgLight: #f8f2f0;
+    --border: #e2e5f1;
+    --btn: #6366f1;
+    --yellowTag: #f9f395;
+    --greenTag: #7de7c1;
+    --purpleTag: #cab1ff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+

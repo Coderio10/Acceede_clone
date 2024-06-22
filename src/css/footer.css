@@ -1,0 +1,88 @@
+:root {
+    --text: #262626;
+    --bgLight: #f8f2f0;
+    --border: #e2e5f1;
+    --btn: #6366f1;
+    --yellowTag: #f9f395;
+    --greenTag: #7de7c1;
+    --purpleTag: #cab1ff;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem 4rem;
+    min-height: 50vh;
+    background-color: var(--bgLight);
+}
+
+.footer .contact-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-flow: row wrap;
+    row-gap: 20px;
+}
+
+.footer .contact-sec div:first-child {
+    width: 200px;
+}
+
+.footer .contact-sec div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer .contact-sec li {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer .logo-sec h4 {
+    font-size: 14px;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer .logo-sec img {
+    width: 180px;
+}
+
+.footer ul{
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.footer .copywrite p {
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.footer .copywrite p:last-child {
+    font-size: 12px;
+}
+
+@media (max-width: 500px) {
+    .footer {
+        gap: 2rem;
+        padding: 6rem 2rem;
+    }
+
+    .footer .contact-sec {
+        flex-flow: column nowrap;
+    }
+
+    .footer .contact-sec div:first-child {
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+}
