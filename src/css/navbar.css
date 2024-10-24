@@ -36,7 +36,7 @@ div ul {
 
 .nav-header {
     display: block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-toggle {

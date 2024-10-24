@@ -7,13 +7,13 @@
     padding: 2.5rem;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .container {
     min-width: 320px;
     max-width: 45%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@
 .container .cal-sec div   {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 1rem;
     gap: 0.5rem;
     width: auto;
@@ -72,7 +72,7 @@
 }
 
 .question-component {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 100%;
     padding: 0.5rem 1rem;
     text-align: left;

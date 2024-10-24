@@ -37,7 +37,7 @@
 }
 
 .services-container .col-1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@
 }
 
 .btn-sec {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex; 
     flex-direction: row wrap;
     gap: 10px;
@@ -97,7 +97,7 @@
     justify-content: center;
     gap: 1.5rem;
     margin-top: 3rem;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 
 .feature {
@@ -118,7 +118,7 @@
 }
 
 .feature div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .feature div h4 {
@@ -146,10 +146,10 @@
     .service-component {
         display: flex;
         flex-flow: column;
-        border:1px solid red;
+        /* border:1px solid red; */
     }
     .services-container .col-1 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         padding: 2.5rem 0;
         display: flex;
         flex-direction: column;
